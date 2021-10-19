@@ -53,3 +53,8 @@
 .clicked{
     background-color: rgb(109, 149, 230);
 }
+
+.footer-text{
+    padding: 15px;
+    font-weight: normal;
+}

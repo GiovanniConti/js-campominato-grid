@@ -7,7 +7,7 @@ btn.addEventListener("click", function(){
     console.log(difficulty);
 
     const cellsNumber = GetCellsNumber(difficulty)
-    console.log(cellsNumber);
+    // console.log(cellsNumber);
 
     GenerateGrid(cellsNumber);
     
@@ -49,7 +49,7 @@ function GenerateGrid(cellsNumber){
         cell.style.height = cellSize + "%";
         // add the number of the cell
         cell.textContent = i + 1;
-        console.log("consoleLog di cell", cell);
+        // console.log("consoleLog di cell", cell);
         // append "cell" to the html
         grid.append(cell);
 
@@ -62,5 +62,5 @@ function GenerateGrid(cellsNumber){
 // function to give the class "clicked" to a cell
 function OnCellClick(){
     this.classList.add("clicked");
-    console.log(this);
+    // console.log(this);
 }
