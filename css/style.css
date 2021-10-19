@@ -35,18 +35,21 @@
     padding: 100px 0;
 }
 
-.grid{
+#grid{
     width: 500px;
     height: 500px;
     margin: auto;
-    background-color: coral;
     display: flex;
     flex-wrap: wrap;
 }
 
 .box{
-    width: calc(100% / 10);
-    height: calc(100% / 10);
-    background-color: wheat;
     border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clicked{
+    background-color: rgb(109, 149, 230);
 }
