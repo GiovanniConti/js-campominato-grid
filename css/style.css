@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-img{
+    margin-right: 15px;
+}
+
+#select{
+    width: 150px;
+}
+
+#btn-input{
+    padding: 0 15px;
+}
+
+.container-main{
+    width: 100%;
+    background-color: rgb(160, 251, 214);
+    padding: 100px 0;
+}
+
+.grid{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: wheat;
+    border: 1px solid;
+}
